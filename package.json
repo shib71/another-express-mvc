@@ -1,0 +1,33 @@
+{
+  "name": "another-express-mvc",
+  "version": "0.0.1",
+  "description": "Anoth Express S MVC framework. Built to take advantage of some things I like, such as promises and configuration by convention.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap ./test"
+  },
+  "dependencies" : {
+    "qcouch" : "*",
+    "qjade" : "*",
+    "routetemplate" : "*",
+    "smartclass" : "*",
+    "q" : "*",
+    "express" : "*",
+    "connect" : "*"
+  },
+  "devDependencies": {
+    "tap": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shib71/another-express-mvc.git"
+  },
+  "author": "Blair McKenzie <shib71@gmail.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/shib71/another-express-mvc/issues"
+  }
+}
