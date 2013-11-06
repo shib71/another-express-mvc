@@ -16,7 +16,8 @@
     "smartclass" : "*",
     "q" : "*",
     "express" : "*",
-    "connect" : "*"
+    "connect" : "*",
+    "connect-couchdb" : "*"
   },
   "devDependencies": {
     "tap": "*"
