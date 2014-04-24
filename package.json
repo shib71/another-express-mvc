@@ -1,7 +1,7 @@
 {
   "name": "another-express-mvc",
   "version": "0.0.1",
-  "description": "Anoth Express S MVC framework. Built to take advantage of some things I like, such as promises and configuration by convention.",
+  "description": "Another Express S MVC framework. Built to take advantage of some things I like, such as promises and configuration by convention.",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -17,7 +17,8 @@
     "q" : "*",
     "express" : "*",
     "connect" : "*",
-    "connect-couchdb" : "*"
+    "connect-couchdb" : "*",
+    "aef-validation" : "*"
   },
   "devDependencies": {
     "tap": "*"
